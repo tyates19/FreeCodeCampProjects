@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Survey Form</title>
+        <metacharset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles_finalWebform.css" />
+    </head>
+    <body>
+        <div
+            class="container"
+        >
+            <header
+                class="header"
+            >
+                <h1
+                    id="title"
+                    class="text-center"
+                >
+                    Tanner's<br />Web Survey Form
+                </h1>
+                    <p
+                        id="description"
+                        class="description text-center"
+                    >
+                        Thank you for viewing my webform!
+                    </p>
+            </header>
+            <form
+                id="survey-form"
+            >
+                <div class="form-group">
+                    <label
+                        id="name-label"
+                        for="name"
+                    >
+                        Name
+                    </label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            class="form-control"
+                            placeholder="Enter your name"
+                            required
+                        />
+                </div>
+                <div class="form-group">
+                    <label
+                        id="email-label"
+                        for="email"
+                    >
+                        Email
+                    </label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            class="form-control"
+                            placeholder="Enter your Email"
+                            required
+                        />
+                </div>
+                <div class="form-group">
+                    <label
+                        id="number-label"
+                        for="number"
+                    >
+                        Age
+                    </label>
+                        <input
+                            type="number"
+                            name="age"
+                            id="number"
+                            min="10"
+                            max="99"
+                            class="form-control"
+                            placeholder="Enter your Age"
+                        />
+                </div>
+                <div class="form-group">
+                    <p>Which option best describes your current location?</p>
+                        <select
+                            id="dropdown"
+                            name="role"
+                            class="form-control"
+                            required
+                        >
+                            <option
+                                disabled selected value
+                                class="location"
+                            >
+                                Select current location
+                            </option>
+                            <option
+                                value="pacific"
+                            >
+                                Pacific Coast
+                            </option>
+                            <option
+                                value="midwest"
+                            >
+                                Midwest
+                            </option>
+                            <option
+                                value="east"
+                            >
+                                East Coast
+                            </option>
+                            <option
+                                value="south"
+                            >
+                                South
+                            </option>
+                        </select>
+                </div>
+                <div class="form-group">
+                    <p>Do you like to travel?</p>
+                        <label>
+                            <input
+                            name="user-recommend"
+                            value="yes"
+                            type="radio"
+                            class="input-radio"
+                            checked
+                        />
+                            Yes
+                        </label>
+                        <label>
+                            <input
+                            name="user-recommend"
+                            value="no"
+                            type="radio"
+                            class="input-radio"
+                        />
+                            No
+                        </label>
+                        <label>
+                            <input
+                            name="user-recommend"
+                            value="not-sure"
+                            type="radio"
+                            class="input-radio"
+                        />
+                            Not sure
+                        </label>
+                </div>
+                <div class="form-group">
+                    <p>Where is your favorite travel destination?
+                    <br />(check all that apply)
+                    </p>
+                        <label
+                            ><input
+                            name="prefer"
+                            value="florida"
+                            type="checkbox"
+                            class="input-checkbox"
+                        />
+                            Florida
+                        </label>
+                        <label>
+                            <input
+                            name="prefer"
+                            value="new-york"
+                            type="checkbox"
+                            class="input-checkbox"
+                        />
+                            New York
+                        </label>
+                        <label>
+                        <input
+                            name="prefer"
+                            value="california"
+                            type="checkbox"
+                            class="input-checkbox"
+                        />
+                            California
+                        </label>
+                        <label>
+                        <input
+                            name="prefer"
+                            value="other"
+                            type="checkbox"
+                            class="input-checkbox"
+                        />
+                            Other
+                        </label>
+                </div>
+                <div class="form-group">
+                    <p>If you selected 'Other' for a travel destination, enter that location here:</p>
+                        <textarea
+                            id="comments"
+                            class="input-textarea"
+                            name="comment"
+                            placeholder="Enter your text here..."
+                        ></textarea>
+                </div>
+                <div class="form-group">
+                    <button
+                        type="submit"
+                        id="submit"
+                        class="submit-button"
+                    >
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
