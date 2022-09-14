@@ -1,10 +1,7 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"livePreview.defaultPreviewPath": "c:\\Users\\503318331\\Box\\Tanner\\Scripts\\FreeCodeCamp\\tribute\\index_finalTribute.html"
-	}
+    "folders": [
+        {
+            "path": "templates"
+        }
+    ]
 }
