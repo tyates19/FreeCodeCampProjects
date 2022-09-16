@@ -8,8 +8,11 @@ JavaScript uses the `+` symbol as an addition operator when placed between two n
 
 ## Example:
 
+```javascript
 const myVar = 5 + 10;
-myVar now has the value 15.
+```
+
+`myVar` now has the value `15`.
 
 ## Assignment
 
