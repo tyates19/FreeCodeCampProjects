@@ -5,7 +5,8 @@ One of the biggest problems with declaring variables with the var keyword is tha
 ```javascript
 var camper = "James";
 var camper = "David";
-console.log(camper);```
+console.log(camper);
+```
 
 In the code above, the `camper` variable is originally declared as `James`, and is then overridden to be `David`. The console then displays the string `David`.
 
