@@ -6,7 +6,8 @@ The keyword `let` is not the only new way to declare variables. In ES6, you can 
 
 ```javascript
 const FAV_PET = "Cats";
-FAV_PET = "Dogs";```
+FAV_PET = "Dogs";
+```
 
 The console will display an error due to reassigning the value of `FAV_PET`.
 
