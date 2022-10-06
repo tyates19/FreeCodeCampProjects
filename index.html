@@ -15,15 +15,32 @@
             background-color: #0f0f34;
             border-bottom: 4px solid #31d23c;
             color: #fff;
-            padding: 10px;
             text-align: center;
+            padding: 1px;
         }
         body {
             margin: 0 auto;
             text-align: center;
         }
+        footer {
+            margin-top: 20px;
+            background-color: #0f0f34;
+            border-top: 4px solid #31d23c;
+            color: #fff;
+            padding: 1px;
+            text-align: center;
+        }
         p {
             font-size: 18px;
+        }
+        section {
+            padding: 1px;
+        }
+        h1 {
+            margin: 0;
+        }
+        h5, h6 {
+            margin: 10px;
         }
         li {
             font-size: 20px;
@@ -33,40 +50,103 @@
             padding-left: 5px;
             text-align: left;
         }
+        .headings {
+            column-count: 3;
+            margin: 0 auto;
+            max-width: 500px;
+        }
+        .headings2 {
+            column-count: 2;
+            margin: 0 auto;
+            max-width: 500px;
+            padding-top: 20px;
+        }
         .columns {
             column-count: 3;
             margin: 0 auto;
             max-width: 500px;
         }
+        .columns2 {
+            column-count: 2;
+            margin: 0 auto;
+            max-width: 500px;
+        }
+        .col-head {
+            font-size: 20px;
+        }
+        footer {
+            margin: 0 auto;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
     </style>
     <body>
         <header>
-            <h1>
-                Welcome!
-            </h1>
+            <h1>Tanner Yates</h1>
+            <h5>Projects completed on freeCodeCamp.org</h5>
         </header>
-            <h3>
-                Please click the link for the appropriate project below:
-            </h3>
-            <div class="columns">
-                <p><a href="./cat/index_cat.html" target="_blank">Cat Project</a></p>
-                <p><a href="./coffee/index_coffee.html" target="_blank">Coffee Project</a></p>
-                <p><a href="./colors/index_colors.html" target="_blank">Colors Project</a></p>
-                <p><a href="./flexbox/index_flexbox.html" target="_blank">Flexbox Project</a></p>
-                <p><a href="./form/index_form.html" target="_blank">Form Project</a></p>
-                <p><a href="./label/index_label.html" target="_blank">Label Project</a></p>
-                <p><a href="./quiz/index_quiz.html" target="_blank">Quiz Project</a></p>
-                <p><a href="./balanceSheet/index_balanceSheet.html" target="_blank">Balance Sheet</a></p>
-                <p><a href="./painting/index_painting.html" target="_blank">Picasso Painting</a></p>
-                <p><a href="./piano/index_piano.html" target="_blank">Piano</a></p>
-            </div>
-                <h2>
-                Final Projects
-            </h2>
+        <h2>
+            Final Projects
+        </h2>
         <ol>
             <li><a href="./finalProjects/finalWebform/index_finalWebform.html" target="_blank">WebForm</a></li>
             <li><a href="./finalProjects/finalTribute/index_finalTribute.html" target="_blank">Tribute</a></li>
             <li><a href="./finalProjects/finalTechnicalDoc/index_technicalDoc.html" target="_blank">Tech Doc</a></li>
         </ol>
+        <h2>
+            HTML & CSS Projects
+        </h2>
+        <div class="headings">
+            <header class="col-head">
+                Lesson 1:
+            </header>
+            <header class="col-head">
+                Lesson 2:
+            </header>
+            <header class="col-head">
+                Lesson 3:
+            </header>
+        </div>
+        <div class="columns">
+            <section>
+                <p><a href="./cat/index_cat.html" target="_blank">Cat Project</a></p>
+                <p><a href="./coffee/index_coffee.html" target="_blank">Coffee Project</a></p>
+                <p><a href="./colors/index_colors.html" target="_blank">Colors Project</a></p>
+                <p><a href="./form/index_form.html" target="_blank">Form Project</a></p>
+            </section>
+            <section>
+                <p><a href="./flexbox/index_flexbox.html" target="_blank">Flexbox Project</a></p>
+                <p><a href="./label/index_label.html" target="_blank">Label Project</a></p>
+                <p><a href="./quiz/index_quiz.html" target="_blank">Quiz Project</a></p>
+            </section>
+            <section>
+                <p><a href="./balanceSheet/index_balanceSheet.html" target="_blank">Balance Sheet</a></p>
+                <p><a href="./painting/index_painting.html" target="_blank">Picasso Painting</a></p>
+                <p><a href="./piano/index_piano.html" target="_blank">Piano</a></p>
+            </section>
+        </div>
+        <div class="headings2">
+            <header class="col-head">
+                Lesson 4:
+            </header>
+            <header class="col-head">
+                Lesson 5:
+            </header>
+        </div>
+        <div class="columns2">
+            <section>
+                <p><a href="./skyline/index_skyline.html" target="_blank">Skyline</a></p>
+                <p><a href="./magazine/index_magazine.html" target="_blank">Magazine</a></p>
+            </section>
+            <section>
+                <p><a href="./wheel/index_wheel.html" target="_blank">Wheel</a></p>
+                <p><a href="./penguin/index_penguin.html" target="_blank">Penguin</a></p>
+            </section>
+        </div>
     </body>
+    <footer>
+        <h6>2022  |  Tanner Yates  |  <a href="https://github.com/tyates19" id="git" target="_blank">GitHub</a></h6>
+    </footer>
 </html>
