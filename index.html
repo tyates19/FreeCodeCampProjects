@@ -11,6 +11,8 @@
         * {
             box-sizing: border-box;
             font-family: 'Quicksand', sans-serif;
+            /* un-comment border property to see red box outlines */
+            /* border: 2px solid red; */
         }        
         header {
             background-color: #0f0f34;
@@ -34,6 +36,9 @@
         }
         h5, h6 {
             margin: 10px;
+        }
+        #Final_Projects {
+            display: inline-block;
         }
         li {
             font-size: 20px;
@@ -139,12 +144,18 @@
             border: 5px solid #FFFF;
             border-radius: 100%;
         }
+        #logo {
+            width: max(100px, 18vw);
+            aspect-ratio: 35 / 4;
+            padding: 0.9rem;
+        }
     </style>
     <body>
         <header>
             <img src="./assets/img/Tanner_HeadShot_2.jpg" class="user-image" alt="Tanner Yates">
             <h1>Tanner Yates</h1><h3 class="personal"><a href="https://github.com/tyates19" target="_blank"><i class="fa fa-github"></i></a> | <a href="https://www.linkedin.com/in/tyates19/" target="_blank"><i class='fa fa-linkedin'></i></a></h3>
         </header>
+        <a href="https://www.freecodecamp.org/TannerYates"><img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" id="logo" alt="freeCodeCamp.org"></a>
         <h1 id="Final_Projects">
             Final Projects
         </h1>
