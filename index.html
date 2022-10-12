@@ -17,6 +17,7 @@
         header {
             background-color: #0f0f34;
             border-bottom: 4px solid #31d23c;
+            font-size: 16px;
             color: #fff;
             text-align: center;
             padding: 1px;
@@ -42,12 +43,13 @@
             display: inline-block;
         }
         li {
-            font-size: 20px;
             margin: 0 auto;
             max-width: 200px;
             padding-left: 5px;
             padding-top: 5px;
             text-align: left;
+            font-size: 20px;
+            color: black;
         }
         .headings {
             column-count: 3;
@@ -72,10 +74,7 @@
         }
         .col-head {
             font-size: 20px;
-        }
-        .col-head a:visited {
             color: white;
-            text-decoration: none;
         }
         .divider {
             border-bottom: 2px solid #0f0f34;
@@ -83,7 +82,10 @@
             width: 95%;
             max-width: 500px;
         }
-        .personal a {
+        .personal a,
+        .col-head a,
+        .personal a:visited,
+        .col-head a:visited {
             color: white;
             text-decoration: none;
         }
@@ -99,40 +101,39 @@
             background-color: #31d23c;
             color: #0f0f34;
         }
-        .personal a:visited {
-            color: white;
-            text-decoration: none;
-        }
-        a {
+        a,
+        li a,
+        section a,
+        a:visited,
+        li a:visited,
+        section a:visited {
             color: black;
             text-decoration: none;
         }
-        header a {
-            color: white;
+        .col-head a:hover {
+            font-weight: bold;
             text-decoration: none;
+            color: white;
+            border: none;
+        }
+        li a:hover,
+        section a:hover {
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            border: none;
         }
         a:hover {
-            font-weight: bold;
-            text-decoration: none;
-        }
-        #HTML_&_CSS_Projects a:hover {
             border: 1px solid black;
             border-radius: 10px;
             padding: 2px;
         }
-        #HTML_&_CSS_Projects a:active {
-            border: 1px solid black;
-            border-radius: 10px;
-            padding: 2px;
-            background-color: #31d23c;
-        }
-        a:active {
+        a:active,
+        .col-head a:active,
+        li a:active,
+        section a:active {
             font-weight: bold;
             color: blue;
-            text-decoration: none;
-        }
-        a:visited {
-            color: black;
             text-decoration: none;
         }
         footer {
