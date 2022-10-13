@@ -3,294 +3,112 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
         <title>tannerYates | freeCodeCamp Projects</title>
     </head>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300&family=Quicksand:wght@300&family=Roboto:wght@100;300&display=swap');
-        * {
-            box-sizing: border-box;
-            font-family: 'Quicksand', sans-serif;
-            /* un-comment border property to see red box outlines */
-            /*border: 2px solid red;*/
-        }        
-        header {
-            background-color: #0f0f34;
-            border-bottom: 4px solid #31d23c;
-            font-size: 16px;
-            color: #fff;
-            text-align: center;
-            padding: 1px;
-        }
-        body {
-            margin: 0 auto;
-            text-align: center;
-        }
-        p {
-            font-size: 18px;
-        }
-        h1 {
-            margin: 0;
-        }
-        h5, h6 {
-            margin: 10px;
-        }
-        span {
-            font-size: 22px;
-        }
-        section {
-            padding: 1px;
-        }
-        #Final_Projects {
-            margin-top: 20px;
-            display: inline-block;
-        }
-        li {
-            margin: 0 auto;
-            max-width: 200px;
-            padding-left: 5px;
-            padding-top: 5px;
-            text-align: left;
-            font-size: 20px;
-            color: black;
-        }
-        .headings {
-            column-count: 3;
-            margin: 0 auto;
-            max-width: 500px;
-        }
-        .headings2 {
-            column-count: 2;
-            margin: 0 auto;
-            max-width: 500px;
-            padding-top: 20px;
-        }
-        .columns {
-            column-count: 3;
-            margin: 0 auto;
-            max-width: 500px;
-        }
-        .columns2 {
-            column-count: 2;
-            margin: 0 auto;
-            max-width: 500px;
-        }
-        .col-head {
-            font-size: 20px;
-            color: white;
-        }
-        .personal a,
-        .col-head a,
-        .personal a:visited,
-        .col-head a:visited {
-            color: white;
-            text-decoration: none;
-        }
-        .personal a {
-            padding: 3px;
-        }
-        .personal a:hover {
-            color: #0f0f34;
-            font-weight: bold;
-            text-decoration: none;
-            background-color: white;
-            border-radius: 2px;
-            padding: 2px;
-        }
-        .personal a:active {
-            background-color: #31d23c;
-            color: #0f0f34;
-        }
-        a,
-        li a,
-        section a,
-        a:visited,
-        li a:visited,
-        section a:visited {
-            color: black;
-            text-decoration: none;
-        }
-        .col-head a:hover {
-            font-weight: bold;
-            text-decoration: none;
-            color: white;
-            border: none;
-            padding: 0;
-        }
-        li a:hover,
-        section a:hover {
-            font-weight: bold;
-            text-decoration: none;
-            color: black;
-            border: none;
-            padding: 0;
-        }
-        a:hover {
-            border: 1px solid black;
-            border-radius: 10px;
-            padding: 2px;
-        }
-        a:active,
-        .col-head a:active,
-        li a:active,
-        section a:active {
-            font-weight: bold;
-            color: blue;
-            text-decoration: none;
-        }
-        footer {
-            margin: 0 auto;
-            margin-top: 20px;
-            background-color: #0f0f34;
-            border-top: 4px solid #31d23c;
-            color: #fff;
-            padding: 1px;
-            text-align: center;
-        }
-        .user-image {
-            width: 150px;
-            height: 150px;
-            border: 5px solid #FFFF;
-            border-radius: 100%;
-        }
-        @media (max-width: 500px) {
-            .user-image {
-                width: 100px;
-                height: 100px;
-            }
-            header {
-                max-height: 300px;
-            }
-            h1,
-            header,
-            span{
-                font-size: 1.3rem;
-                padding: 0;
-            }
-            h2 {
-                font-size: 1.2rem;
-            }
-            .headings,
-            .headings2,
-            .columns,
-            .columns2 {
-                max-width: 300px;
-            }
-            a:hover {
-                padding: 0;
-            }
-            .personal a:hover,
-            .personal a:active {
-                padding: 2px;
-            }
-            section {
-                max-height: 300px;
-                overflow: hidden;
-            }
-            ol {
-                padding-left: 20px;
-            }
-            li,
-            p,
-            .col-head {
-                font-size: 1.1rem;
-            }
-        }
-    </style>
     <body>
-        <header>
+        <div class="head">
             <img src="./assets/img/Tanner_HeadShot_2.jpg" class="user-image" alt="Tanner Yates" style="margin-top: 20px">
-            <h2 class="personal"><a href="https://www.freecodecamp.org/TannerYates" target="_blank"><i class="fa fa-free-code-camp"></i></a> | <a href="https://github.com/tyates19" target="_blank"><i class="fa fa-github"></i></a> | <a href="https://www.linkedin.com/in/tyates19/" target="_blank"><i class='fa fa-linkedin'></i></a></h2>
-        </header>
-        <h1 id="Final_Projects">
-            <span>freeCodeCamp.org</span> Final Projects
-        </h1>
-        <div>
-            <div class="headings2">
+            <h1 class="name">Tanner Yates</h1>
+            <h2 class="personal">
+                <a href="https://www.freecodecamp.org/TannerYates" target="_blank"><i class="fa fa-free-code-camp"></i></a>  <a href="https://github.com/tyates19" target="_blank"><i class="fa fa-github"></i></a>  <a href="https://www.linkedin.com/in/tyates19/" target="_blank"><i class='fa fa-linkedin'></i></a>
+            </h2>
+        </div>
+        <div class="container">
+            <h1 id="Final_Projects">
+                <span>freeCodeCamp.org</span> Final Projects
+            </h1>
+            <div>
+                <div class="headings2">
+                    <header class="col-head">
+                        <a href="#HTML_&_CSS_Projects">
+                            HTML & CSS
+                        </a>
+                    </header>
+                    <header class="col-head">
+                        JavaScript
+                    </header>
+                </div>
+                <div class="columns2">
+                    <section>
+                        <ol>
+                            <li><a href="./finalProjects/finalWebform/index_finalWebform.html" target="_blank">WebForm</a></li>
+                            <li><a href="./finalProjects/finalTribute/index_finalTribute.html" target="_blank">Tribute</a></li>
+                            <li><a href="./finalProjects/finalTechnicalDoc/index_technicalDoc.html" target="_blank">Tech Doc</a></li>
+                            <li><a href="./finalProjects/finalLanding/index_finalLanding.html" target="_blank">Landing</a></li>
+                            <li><a href="./finalProjects/finalPortfolio/index_finalPortfolio.html" target="_blank">Portfolio</a></li>
+                        </ol>
+                    </section>
+                    <section>
+                        <ol>
+                            <li><a href="./finalProjects/finalPalindrome/index_finalPalindrom.html" target="_blank">Palindrome</a></li>
+                            <li><a href="./finalProjects/finalROmanNumeral/index_finalRomanNumeral.html" target="_blank">Roman Numeral</a></li>
+                            <li><a href="./finalProjects/finalCaesarsCipher/index_finalCaesersCipher.html" target="_blank">Caesar's Cipher</a></li>
+                            <li><a href="./finalProjects/finalLanding/index_finalPhoneValidator.html" target="_blank">Phone # Validator</a></li>
+                            <li><a href="./finalProjects/finalCashRegister/index_finalCashRegister.html" target="_blank">Cash Register</a></li>
+                        </ol>
+                    </section>
+                </div>
+            </div>
+            <h2 id="HTML_&_CSS_Projects">
+                <a href="#Final_Projects">
+                    HTML & CSS Lessons
+                </a>
+            </h2>
+            <div class="headings">
                 <header class="col-head">
-                    <a href="#HTML_&_CSS_Projects">
-                        HTML & CSS
-                    </a>
+                    Lesson 1:
                 </header>
                 <header class="col-head">
-                    JavaScript
+                    Lesson 2:
+                </header>
+                <header class="col-head">
+                    Lesson 3:
+                </header>
+            </div>
+            <div class="columns">
+                <section>
+                    <p><a href="./cat/index_cat.html" target="_blank">Cat Project</a></p>
+                    <p><a href="./coffee/index_coffee.html" target="_blank">Coffee Project</a></p>
+                    <p><a href="./colors/index_colors.html" target="_blank">Colors Project</a></p>
+                    <p><a href="./form/index_form.html" target="_blank">Form Project</a></p>
+                </section>
+                <section>
+                    <p><a href="./flexbox/index_flexbox.html" target="_blank">Flexbox Project</a></p>
+                    <p><a href="./label/index_label.html" target="_blank">Label Project</a></p>
+                    <p><a href="./quiz/index_quiz.html" target="_blank">Quiz Project</a></p>
+                </section>
+                <section>
+                    <p><a href="./balanceSheet/index_balanceSheet.html" target="_blank">Balance Sheet</a></p>
+                    <p><a href="./painting/index_painting.html" target="_blank">Picasso Painting</a></p>
+                    <p><a href="./piano/index_piano.html" target="_blank">Piano</a></p>
+                </section>
+            </div>
+            <div class="headings2">
+                <header class="col-head">
+                    Lesson 4:
+                </header>
+                <header class="col-head">
+                    Lesson 5:
                 </header>
             </div>
             <div class="columns2">
                 <section>
-                    <ol>
-                        <li><a href="./finalProjects/finalWebform/index_finalWebform.html" target="_blank">WebForm</a></li>
-                        <li><a href="./finalProjects/finalTribute/index_finalTribute.html" target="_blank">Tribute</a></li>
-                        <li><a href="./finalProjects/finalTechnicalDoc/index_technicalDoc.html" target="_blank">Tech Doc</a></li>
-                        <li><a href="./finalProjects/finalLanding/index_finalLanding.html" target="_blank">Landing</a></li>
-                        <li><a href="./finalProjects/finalPortfolio/index_finalPortfolio.html" target="_blank">Portfolio</a></li>
-                    </ol>
+                    <p><a href="./skyline/index_skyline.html" target="_blank">Skyline</a></p>
+                    <p><a href="./magazine/index_magazine.html" target="_blank">Magazine</a></p>
                 </section>
                 <section>
-                    <ol>
-                        <li><a href="./finalProjects/finalPalindrome/index_finalPalindrom.html" target="_blank">Palindrome</a></li>
-                        <li><a href="./finalProjects/finalROmanNumeral/index_finalRomanNumeral.html" target="_blank">Roman Numeral</a></li>
-                        <li><a href="./finalProjects/finalCaesarsCipher/index_finalCaesersCipher.html" target="_blank">Caesar's Cipher</a></li>
-                        <li><a href="./finalProjects/finalLanding/index_finalPhoneValidator.html" target="_blank">Phone # Validator</a></li>
-                        <li><a href="./finalProjects/finalCashRegister/index_finalCashRegister.html" target="_blank">Cash Register</a></li>
-                    </ol>
+                    <p><a href="./wheel/index_wheel.html" target="_blank">Wheel</a></p>
+                    <p><a href="./penguin/index_penguin.html" target="_blank">Penguin</a></p>
                 </section>
             </div>
-        </div>
-        <h2 id="HTML_&_CSS_Projects">
-            <a href="#Final_Projects">
-                HTML & CSS Lessons
-            </a>
-        </h2>
-        <div class="headings">
-            <header class="col-head">
-                Lesson 1:
-            </header>
-            <header class="col-head">
-                Lesson 2:
-            </header>
-            <header class="col-head">
-                Lesson 3:
-            </header>
-        </div>
-        <div class="columns">
-            <section>
-                <p><a href="./cat/index_cat.html" target="_blank">Cat Project</a></p>
-                <p><a href="./coffee/index_coffee.html" target="_blank">Coffee Project</a></p>
-                <p><a href="./colors/index_colors.html" target="_blank">Colors Project</a></p>
-                <p><a href="./form/index_form.html" target="_blank">Form Project</a></p>
-            </section>
-            <section>
-                <p><a href="./flexbox/index_flexbox.html" target="_blank">Flexbox Project</a></p>
-                <p><a href="./label/index_label.html" target="_blank">Label Project</a></p>
-                <p><a href="./quiz/index_quiz.html" target="_blank">Quiz Project</a></p>
-            </section>
-            <section>
-                <p><a href="./balanceSheet/index_balanceSheet.html" target="_blank">Balance Sheet</a></p>
-                <p><a href="./painting/index_painting.html" target="_blank">Picasso Painting</a></p>
-                <p><a href="./piano/index_piano.html" target="_blank">Piano</a></p>
-            </section>
-        </div>
-        <div class="headings2">
-            <header class="col-head">
-                Lesson 4:
-            </header>
-            <header class="col-head">
-                Lesson 5:
-            </header>
-        </div>
-        <div class="columns2">
-            <section>
-                <p><a href="./skyline/index_skyline.html" target="_blank">Skyline</a></p>
-                <p><a href="./magazine/index_magazine.html" target="_blank">Magazine</a></p>
-            </section>
-            <section>
-                <p><a href="./wheel/index_wheel.html" target="_blank">Wheel</a></p>
-                <p><a href="./penguin/index_penguin.html" target="_blank">Penguin</a></p>
-            </section>
+        <footer>
+            <h5>
+                &copy;2022 Tanner Yates <span class="personal_footer"><a href="https://www.freecodecamp.org/TannerYates" target="_blank"><i class="fa fa-free-code-camp"></i></a>  <a href="https://github.com/tyates19" target="_blank"><i class="fa fa-github"></i></a>  <a href="https://www.linkedin.com/in/tyates19/" target="_blank"><i class='fa fa-linkedin'></i></a></span>
+            </h5>
+        </footer>
+        <div class="above_footer"></div>
         </div>
     </body>
-    <footer>
-        <h5 class="personal">Tanner Yates  |  <a href="https://www.freecodecamp.org/TannerYates"><i class="fa fa-free-code-camp"></i></a> | <a href="https://github.com/tyates19" target="_blank"><i class='fa fa-github'></i></a> | <a href="https://www.linkedin.com/in/tyates19/" targe="_blank"><i class='fa fa-linkedin'></i></a></h5>
-    </footer>
 </html>
