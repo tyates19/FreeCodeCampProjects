@@ -12,7 +12,7 @@
             box-sizing: border-box;
             font-family: 'Quicksand', sans-serif;
             /* un-comment border property to see red box outlines */
-            /* border: 2px solid red; */
+            /*border: 2px solid red;*/
         }        
         header {
             background-color: #0f0f34;
@@ -29,14 +29,17 @@
         p {
             font-size: 18px;
         }
-        section {
-            padding: 1px;
-        }
         h1 {
             margin: 0;
         }
         h5, h6 {
             margin: 10px;
+        }
+        span {
+            font-size: 22px;
+        }
+        section {
+            padding: 1px;
         }
         #Final_Projects {
             margin-top: 20px;
@@ -150,6 +153,49 @@
             border: 5px solid #FFFF;
             border-radius: 100%;
         }
+        @media (max-width: 500px) {
+            .user-image {
+                width: 100px;
+                height: 100px;
+            }
+            header {
+                max-height: 300px;
+            }
+            h1,
+            header,
+            span{
+                font-size: 1.3rem;
+                padding: 0;
+            }
+            h2 {
+                font-size: 1.2rem;
+            }
+            .headings,
+            .headings2,
+            .columns,
+            .columns2 {
+                max-width: 300px;
+            }
+            a:hover {
+                padding: 0;
+            }
+            .personal a:hover,
+            .personal a:active {
+                padding: 2px;
+            }
+            section {
+                max-height: 250px;
+                overflow: hidden;
+            }
+            ol {
+                padding-left: 20px;
+            }
+            li,
+            p,
+            .col-head {
+                font-size: .9rem;
+            }
+        }
     </style>
     <body>
         <header>
@@ -157,7 +203,7 @@
             <h2 class="personal"><a href="https://www.freecodecamp.org/TannerYates" target="_blank"><i class="fa fa-free-code-camp"></i></a> | <a href="https://github.com/tyates19" target="_blank"><i class="fa fa-github"></i></a> | <a href="https://www.linkedin.com/in/tyates19/" target="_blank"><i class='fa fa-linkedin'></i></a></h2>
         </header>
         <h1 id="Final_Projects">
-            <span style="font-size: 22px">freeCodeCamp.org</span> Final Projects
+            <span>freeCodeCamp.org</span> Final Projects
         </h1>
         <div>
             <div class="headings2">
